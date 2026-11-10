@@ -284,8 +284,8 @@ optimal_policy, optimal_value_function = policy_iteration(
     theta=theta
 )
 
-print("Name: VIJAY R  ")
-print("Register Number: 212223240178")
+print("Name:THAVANESH B")
+print("Register Number: 212224040352")
 print_value_function(optimal_value_function)
 print_policy(optimal_policy)
 
@@ -294,28 +294,8 @@ env.close()
 
 ## Output
 
-```TEXT
-Policy converged!
+<img width="387" height="275" alt="image" src="https://github.com/user-attachments/assets/09a87686-b6ad-4aab-b471-036aee22e854" />
 
-Total policy iterations: 2
-Name: VIJAY R
-Register Number: 212223240178
-
-Optimal State-Value Function:
-[[0.0978 0.0858 0.0961 0.0762]
- [0.1236 0.     0.1317 0.    ]
- [0.1818 0.2875 0.3333 0.    ]
- [0.     0.4224 0.6676 0.    ]]
-
-Optimal Policy:
-[['←' '↑' '←' '↑']
- ['←' '←' '←' '←']
- ['↑' '↓' '←' '←']
- ['←' '→' '↓' '←']]
-```
-
-
----
 
 ## Result
 The Policy Iteration algorithm was successfully implemented to obtain the optimal state-value function and optimal policy for the FrozenLake-v1 environment.
